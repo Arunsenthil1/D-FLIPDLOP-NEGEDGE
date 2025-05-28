@@ -39,7 +39,7 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 
 *PROGRAM*
-
+```
 module exp8(D,clk,Q,Qbar);
 input D,clk;
 output reg Q;
@@ -52,7 +52,7 @@ Q=D;
 Qbar=~D;
 end
 endmodule
-
+```
 
 *RTL LOGIC FOR FLIPFLOPS*
 ![Screenshot 2025-04-22 113255](https://github.com/user-attachments/assets/6e19723b-0be9-4df2-a6e1-19552add9271)
